@@ -1,37 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Coming Soon! </title>
-
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-   <link href="css/bootstrap.min.css" rel="stylesheet">
-
-<title>Coming Soon!</title>
+<head>
+	<title>S O O N</title>
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Nunito:200,400" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-
-<div id = "header">
-<div id = "h1">Hi, my name is Nil Patel and welcome to my website. </div>
-
+<div id="name">Nil Patel.</div>
+<div id="shortDescription">Software Developer | Senior at New York University.</div>
 <br><br>
-</div>
-
-<div id = "container">
-
-</div>
+<div id="soonBaby">Check back soon</div>
+<div id ="footer">Contact me at nil.patel@nyu.edu</div>
 
 
-
-<div class="progress">
-  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-    Changes are coming your way! (10%)
-  </div>
-
-</div>
-
-<p>
-Contact Information:
-nil.patel@nyu.edu
+<script> 
+$(document).ready(function(){
+    $("#shortDescription").click(function(){
+        $("#soonBaby").slideDown("slow");
+    });
+});
+</script>
 </body>
 </html>
